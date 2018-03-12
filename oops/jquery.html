@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>
+			Only Jquery Test
+		</title>
+		<script src="jquery.js"></script>
+		<script>
+			$(document).ready(function(){
+                            
+                             $( "#box" ).on( "dblclick", function( event ) {
+                         alert(event.target);
+                            $("#disable").focus();
+});
+				
+                               
+                                       
+			});
+                       
+		</script>
+	</head>
+	<body>
+		
+            <p>p tag</p>
+            <button id="box" style="background-color: green;">p tag</button>
+            <div>div</div>
+            <div id="disable">Disabled</div>
+		<!--<a href="" id="image_load">Checking</a>-->
+                <!--<img alt="book" id="book" src="http://www.w3schools.com/csimg_fjords.jpgs/img_fjords.jpg">-->
+	</body>
+</html>
